@@ -1,13 +1,13 @@
 import * as React from 'react';
 
 import { StyleSheet, View, Text } from 'react-native';
-import { multiply } from 'react-native-audio-files';
+import { fetchAudioFiles } from 'react-native-audio-files';
 
 export default function App() {
-  const [result, setResult] = React.useState<number | undefined>();
+  const [result, setResult] = React.useState<any | undefined>();
 
   React.useEffect(() => {
-    multiply(3, 7).then(setResult);
+    fetchAudioFiles().then(setResult);
   }, []);
 
   return (
