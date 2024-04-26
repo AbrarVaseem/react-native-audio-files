@@ -17,6 +17,6 @@ const AudioFiles = NativeModules.AudioFiles
       }
     );
 
-export function multiply(a: number, b: number): Promise<number> {
-  return AudioFiles.multiply(a, b);
+export function fetchAudioFiles(): Promise<void> {
+  return AudioFiles.getAudioFiles();
 }

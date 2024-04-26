@@ -1,6 +1,6 @@
 {
   "name": "react-native-audio-files",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "This package provides functionality to retrieve all audio files stored on an Android device. With this module, you can easily access and manage audio files within your React Native application.",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -36,8 +36,14 @@
   },
   "keywords": [
     "react-native",
-    "ios",
-    "android"
+    "android",
+    "audio-files",
+    "music-files",
+    "music",
+    "fetch-audio",
+    "fetch-audio-image",
+    "access-audio",
+    "device-audio-files"
   ],
   "repository": {
     "type": "git",
