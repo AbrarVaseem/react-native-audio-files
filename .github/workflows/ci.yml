@@ -23,6 +23,12 @@ jobs:
       - name: Typecheck files
         run: yarn typecheck
 
+      - name: Set executable permissions for gradlew
+        run: chmod +x ./gradlew
+
+      - name: Run build
+        run: ./gradlew build
+
   test:
     runs-on: ubuntu-latest
     steps:
