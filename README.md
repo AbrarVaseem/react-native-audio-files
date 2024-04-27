@@ -16,7 +16,7 @@ import { fetchAudioFiles } from 'react-native-audio-files';
 const audioFiles = await fetchAudioFiles();
 ```
 
-//Or Follow Basic Example:
+Or Follow Basic Example:
 
 ```js
 import { fetchAudioFiles } from 'react-native-audio-files';
@@ -59,7 +59,7 @@ return (
 | __size__      | Size of the Audio File            | String  |
 | __title__     | Title of the Audio File           | String  |
 
-__Note:__
+### Note:
 1. __addedDate__ is of type UNIX Timestamp, to convert it into the required time format of __YYYY-MM-DD HH:MM:SS__
 
 ```js
